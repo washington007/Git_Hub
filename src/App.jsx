@@ -16,10 +16,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>GitHub vs GitLab</h1>
+      <h1>Curso de Git</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Boton Presionado  {count}
+          Contador  {count}
         </button>
         <p>
           Para Editar <code>src/App.jsx</code> and save to test HMR
